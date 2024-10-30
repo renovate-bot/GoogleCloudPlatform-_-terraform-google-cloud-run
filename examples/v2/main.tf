@@ -27,4 +27,5 @@ module "cloud_run_v2" {
       container_name  = "hello-world"
     }
   ]
+  deletion_protection = false
 }
